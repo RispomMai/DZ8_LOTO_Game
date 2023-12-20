@@ -41,7 +41,7 @@ class Card:
 
 class Keg:
     def __init__(self):
-        self.list_numbers = {i for i in range(1, 90)}
+        self.list_numbers = {i for i in range(1, 91)}
 
     def pull_keg(self):
         while True:
